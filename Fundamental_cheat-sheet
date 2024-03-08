@@ -23,24 +23,18 @@
 5.0 // 3.0   # => 1.0 # works on floats too
 -5.0 // 3.0  # => -2.0
 
-# The result of division is always a float
-10.0 / 3  # => 3.3333333333333335
+# მოდულური მოქმედებები
+7 % 3   # => 1   გაყოფისას მიღებული ნაშთი. 
 
-# Modulo operation
-7 % 3   # => 1
-# i % j have the same sign as j, unlike C
--7 % 3  # => 2
+-7 % 3  # => 2    გაყოფისას მიღებული ნაშთი. 
 
-# Exponentiation (x**y, x to the yth power)
-2**3  # => 8
+# ექსპონენცია (x**y, x to the yth power)
+2**3  # => 8   ** გამოყენებით ხორციელდება რიცხვის ახარისხება ( ფუძე 2 , ხოლო ხარისხის მაჩვენებელი 3)
 
-# Enforce precedence with parentheses
-1 + 3 * 2    # => 7
-(1 + 3) * 2  # => 8
 
-# Boolean values are primitives (Note: the capitalization)
-True   # => True
-False  # => False
+# ლოგიკური ოპერატორები( შენიშვნა: მათი ჩაწერა იწყება მაღალი რეგისტრის სიმბოლოთი)
+True   # => ჭეშმარიტია
+False  # => მცდარია
 
 # negate with not
 not True   # => False
