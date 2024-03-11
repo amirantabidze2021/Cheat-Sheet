@@ -20,7 +20,7 @@
 # მთელი რიცხვების გაყოფა როგორც დადებით ისე უარყოფით რიცხვებზე
 5 // 3       # => 1  მთელი ნაწილის გამოყოფა, ანუ რამდენჯერ მოთავსდება 3 -იანი 5 ში.
 -5 // 3      # => -2 
-5.0 // 3.0   # => 1.0 # works on floats too
+5.0 // 3.0   # => 1.0 
 -5.0 // 3.0  # => -2.0
 
 # მოდულური მოქმედებები
@@ -36,25 +36,20 @@
 True   # => ჭეშმარიტია
 False  # => მცდარია
 
-# negate with not
-not True   # => False
-not False  # => True
+# not ოპერატორი
+not True   # => მცდარი
+not False  # => ჭეშმარიტი
 
-# Boolean Operators
-# Note "and" and "or" are case-sensitive
-True and False  # => False
-False or True   # => True
+# ლოგიკური ოპერატორები
+# შენიშვნა: "and" და "or" ოპერატორები case sensitive ოპერატორები არიან 
+True and False  # => მცდარი
+False or True   # => ჭეშმარიტი
 
-# True and False are actually 1 and 0 but with different keywords
-True + True # => 2
-True * 8    # => 8
-False - 5   # => -5
-
-# Comparison operators look at the numerical value of True and False
-0 == False  # => True
-2 > True    # => True
-2 == True   # => False
--5 != False # => True
+# შედარების და ლოგიკური ოპერატორები
+0 == False  # => ჭეშმარიტი
+2 > True    # => ჭეშმარიტი
+2 == True   # => მცდარი
+-5 != False # => ჭეშმარიტი
 
 # None, 0, and empty strings/lists/dicts/tuples/sets all evaluate to False.
 # All other values are True
