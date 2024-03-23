@@ -59,8 +59,8 @@ bool([])    # => მცდარი
 bool({})    # => მცდარი
 bool(())    # => მცდარი
 bool(set()) # => მცდარი
-bool(4)     # => True
-bool(-6)    # => True
+bool(4)     # => ჭეშმარიტი
+bool(-6)    # => ჭეშმარიტი
 
 # Using boolean logical operators on ints casts them to booleans for evaluation,
 # but their non-cast value is returned. Don't mix up with bool(ints) and bitwise
