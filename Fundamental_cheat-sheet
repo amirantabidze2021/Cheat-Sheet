@@ -76,11 +76,11 @@ bool(2)     # => True
 1 == 1  # => ჭეშმარიტი
 2 == 1  # => მცდარი
 
-# Inequality is !=
+# არ არის ტოლი  "!="
 1 != 1  # => False
 2 != 1  # => True
 
-# More comparisons
+# შედარების ოპერატორები
 1 < 10  # => True
 1 > 10  # => False
 2 <= 2  # => True
@@ -124,19 +124,19 @@ f"She said her name is {name}." # => "She said her name is Reiko"
 # Any valid Python expression inside these braces is returned to the string.
 f"{name} is {len(name)} characters long." # => "Reiko is 5 characters long."
 
-# None is an object
+# None არის ობიექტი
 None  # => None
 
 # Don't use the equality "==" symbol to compare objects to None
 # Use "is" instead. This checks for equality of object identity.
-"etc" is None  # => False
-None is None   # => True
+"etc" is None  # => მცდარი
+None is None   # => ჭეშმარიტი
 
 ####################################################
-## 2. Variables and Collections
+## 2. ცვლადები
 ####################################################
 
-# Python has a print function
+# Pytho-ს აქვს print ფუნქცია
 print("I'm Python. Nice to meet you!")  # => I'm Python. Nice to meet you!
 
 # By default the print function also prints out a newline at the end.
