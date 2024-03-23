@@ -53,12 +53,12 @@ False or True   # => ჭეშმარიტი
 
 # None, 0, and empty strings/lists/dicts/tuples/sets all evaluate to False.
 # All other values are True
-bool(0)     # => False
-bool("")    # => False
-bool([])    # => False
-bool({})    # => False
-bool(())    # => False
-bool(set()) # => False
+bool(0)     # => მცდარი
+bool("")    # => მცდარი
+bool([])    # => მცდარი
+bool({})    # => მცდარი
+bool(())    # => მცდარი
+bool(set()) # => მცდარი
 bool(4)     # => True
 bool(-6)    # => True
 
