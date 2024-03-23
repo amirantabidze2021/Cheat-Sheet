@@ -72,9 +72,9 @@ bool(-5)    # => True
 bool(2)     # => True
 -5 or 0     # => -5
 
-# Equality is ==
-1 == 1  # => True
-2 == 1  # => False
+# მათემატიკური ტოლობა არის " == "
+1 == 1  # => ჭეშმარიტი
+2 == 1  # => მცდარი
 
 # Inequality is !=
 1 != 1  # => False
