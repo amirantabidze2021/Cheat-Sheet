@@ -65,11 +65,11 @@ bool(-6)    # => ჭეშმარიტი
 # Using boolean logical operators on ints casts them to booleans for evaluation,
 # but their non-cast value is returned. Don't mix up with bool(ints) and bitwise
 # and/or (&,|)
-bool(0)     # => False
-bool(2)     # => True
+bool(0)     # => მცდარი
+bool(2)     # => ჭეშმარიტი
 0 and 2     # => 0
-bool(-5)    # => True
-bool(2)     # => True
+bool(-5)    # => ჭეშმარიტი
+bool(2)     # => ჭეშმარიტი
 -5 or 0     # => -5
 
 # მათემატიკური ტოლობა არის " == "
@@ -81,8 +81,8 @@ bool(2)     # => True
 2 != 1  # => True
 
 # შედარების ოპერატორები
-1 < 10  # => True
-1 > 10  # => False
+1 < 10  # => ჭეშმარიტი
+1 > 10  # => მცდარი
 2 <= 2  # => ჭეშმარიტი
 2 >= 2  # => ჭეშმარიტი
 
