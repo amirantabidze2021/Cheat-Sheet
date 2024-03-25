@@ -83,8 +83,8 @@ bool(2)     # => True
 # შედარების ოპერატორები
 1 < 10  # => True
 1 > 10  # => False
-2 <= 2  # => True
-2 >= 2  # => True
+2 <= 2  # => ჭეშმარიტი
+2 >= 2  # => ჭეშმარიტი
 
 # Seeing whether a value is in a range
 1 < 2 and 2 < 3  # => True
