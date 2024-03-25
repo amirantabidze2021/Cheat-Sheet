@@ -136,7 +136,7 @@ None is None   # => ჭეშმარიტი
 ## 2. ცვლადები
 ####################################################
 
-# Pytho-ს აქვს print ფუნქცია
+# Python-ს აქვს print ფუნქცია
 print("I'm Python. Nice to meet you!")  # => I'm Python. Nice to meet you!
 
 # By default the print function also prints out a newline at the end.
@@ -282,8 +282,8 @@ list(filled_dict.values())  # => [3, 2, 1]  in Python <3.7
 list(filled_dict.values())  # => [1, 2, 3] in Python 3.7+
 
 # Check for existence of keys in a dictionary with "in"
-"one" in filled_dict  # => True
-1 in filled_dict      # => False
+"one" in filled_dict  # => ჭეშმარიტი
+1 in filled_dict      # => მცდარი
 
 # Looking up a non-existing key is a KeyError
 filled_dict["four"]  # KeyError
